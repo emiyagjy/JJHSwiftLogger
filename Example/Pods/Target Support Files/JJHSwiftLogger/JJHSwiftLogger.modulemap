@@ -1,0 +1,6 @@
+framework module JJHSwiftLogger {
+  umbrella header "JJHSwiftLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

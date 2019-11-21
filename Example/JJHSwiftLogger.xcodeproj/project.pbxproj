@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1776219AD4875A24355659B6 /* Pods-JJHSwiftLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJHSwiftLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JJHSwiftLogger_Tests/Pods-JJHSwiftLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		60611356881FE5AFFA77B54F /* JJHSwiftLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJHSwiftLogger.podspec; path = ../JJHSwiftLogger.podspec; sourceTree = "<group>"; };
+		60611356881FE5AFFA77B54F /* JJHSwiftLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJHSwiftLogger.podspec; path = ../JJHSwiftLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JJHSwiftLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJHSwiftLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8435540AFBA189E58D530BDE /* Pods-JJHSwiftLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJHSwiftLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-JJHSwiftLogger_Tests/Pods-JJHSwiftLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BAE666CA7CC8AC0090142EDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BAE666CA7CC8AC0090142EDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C25E04924CDA68E2C34B3C99 /* Pods-JJHSwiftLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJHSwiftLogger_Example.release.xcconfig"; path = "Target Support Files/Pods-JJHSwiftLogger_Example/Pods-JJHSwiftLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D47217C07C85554039807029 /* Pods-JJHSwiftLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJHSwiftLogger_Example.debug.xcconfig"; path = "Target Support Files/Pods-JJHSwiftLogger_Example/Pods-JJHSwiftLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9BA3B7C2B7C1FECCF442D90 /* Pods_JJHSwiftLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJHSwiftLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4BD823C0E07E4CBBF4689E /* Pods_JJHSwiftLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJHSwiftLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD9B6C92CACB7CB4DF0B1133 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD9B6C92CACB7CB4DF0B1133 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				1776219AD4875A24355659B6 /* Pods-JJHSwiftLogger_Tests.debug.xcconfig */,
 				8435540AFBA189E58D530BDE /* Pods-JJHSwiftLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
